@@ -14,7 +14,7 @@ let data = JSON.parse(rawdata);
 data.forEach((item) => {
   item.name = `DC #${item.edition}`;
   item.image = `${baseUri}/${item.edition}.png`;
-  item.description = `123`;
+  item.description = `The Degentlemen's Club is a collection of 6,000 Saber-toothed Degens roaming in the Ethereum jungle. Each NFT is unique and grants each holder access to the VIP section with holders-only benefits. Every single member in the VIP section will have a say in the steps we take for the future of this project.`;
   fs.writeFileSync(
     `${basePath}/build/json/${item.edition}.json`,
     JSON.stringify(item, null, 2)

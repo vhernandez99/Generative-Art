@@ -1,7 +1,7 @@
 const { MODE } = require("./blendMode.js");
 const description =
   "The Degentlemen's Club is a collection of 6,000 Saber-toothed Degens roaming in the Ethereum jungle. Each NFT is unique and grants each holder access to the VIP section with holders-only benefits. Every single member in the VIP section will have a say in the steps we take for the future of this project.";
-const baseUri = "ipfs://QmconZbmdGXFsAMk9iFgRAMujTVKTkd37QiWdcZGQvUZL3";
+const baseUri = "ipfs://QmQv27vobfxM7ySB4uBmipQHx37nKjSBbqCo6Acw5EsUkM";
 
 const layerConfigurations = [
   {
